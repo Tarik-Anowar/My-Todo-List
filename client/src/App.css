@@ -1,0 +1,87 @@
+body
+{
+   width: 50%;
+   margin: 0 auto;
+   background-color: aquamarine;
+}
+
+header{
+  text-align: center;
+}
+
+header h1{
+  font-size: 100px;
+  color: rebeccapurple;
+  font-weight: 300;
+}
+
+ul{
+  display: grid;
+  grid-gap: 10px;
+  color: white;
+}
+
+
+
+input{
+  font-size: 20px;
+  color : white;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid white;
+  background-color:transparent;
+}
+
+ul :hover
+{
+    background-color: black;
+
+}
+
+.edit-todo {
+  color: white;
+}
+#input{
+  color: rebeccapurple;
+  border-bottom: 5px solid rebeccapurple;
+}
+
+.task
+{
+  background-color: rgb(43, 67, 121);
+  /* margin: 10px; */
+  padding: 10px;
+  list-style: none;
+  font-size: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.task span{
+  color: white;
+}
+
+
+
+.icon{
+  float: right;
+  margin-right: 30px;
+}
+
+.button{
+  margin: 10px;
+  padding: 8px;
+  font-size: 14px;
+  border: none;
+  background-color: rgb(2, 115, 201);
+  border-radius: 8px;
+  font-weight: bold;
+  color: white;
+}
+
+.button.selected{
+  background-color: gray;
+}
+.button.clear{
+  background-color: red;
+}
